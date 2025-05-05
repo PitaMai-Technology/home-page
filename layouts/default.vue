@@ -109,4 +109,79 @@ const route = useRoute()
         gap: 12px;
     }
 }
+
+.orgCard {
+    background-color: var(--whiteColor100);
+    border-radius: 12px;
+    box-shadow: var(--standardShadow);
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    line-height: 1.5;
+}
+
+.orgTable {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.orgTable th,
+.orgTable td {
+    padding: 16px 24px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--grayColor2000);
+    transition: background-color 0.2s;
+}
+
+.orgTable th {
+    background: linear-gradient(90deg,
+            rgba(184, 251, 151, 0.2),
+            rgba(77, 102, 62, 0.05));
+    color: var(--subColor);
+    font-weight: bold;
+    width: 160px;
+    border-right: 1px solid var(--grayColor2000);
+}
+
+.orgTable tr:last-child th,
+.orgTable tr:last-child td {
+    border-bottom: none;
+}
+
+.orgTable tr:hover td,
+.orgTable tr:hover th {
+    background-color: rgba(184, 251, 151, 0.05);
+}
+
+.orgTable small {
+    color: var(--grayColor300);
+    font-size: 0.85em;
+    margin-top: 5px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .orgCard {
+        border-radius: 8px;
+    }
+
+    .orgTable th,
+    .orgTable td {
+        display: block;
+        width: 100%;
+    }
+
+    .orgTable th {
+        padding: 12px 16px 4px 16px;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .orgTable td {
+        padding: 8px 16px 12px 16px;
+    }
+}
 </style>
