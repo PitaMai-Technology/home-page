@@ -6,6 +6,7 @@ const newsItems = [
 </script>
 
 <template>
+    <TheSeo title="PitaMai(ピタマイ)" />
     <div>
         <div class="heroSection">
             <div class="heroContent">
