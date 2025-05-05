@@ -12,7 +12,10 @@ export default defineNuxtConfig({
     buildAssetsDir: "/_nuxt/", // デフォルト
   },
 
-  modules: ["@nuxt/image", "@nuxtjs/seo"],
+  modules: ["@nuxt/image", "@nuxtjs/seo", "nuxt-gtag"],
+  gtag: {
+    id: "G-YMJHQ4TNQH",
+  },
 
   image: {
     // 画像モジュールの設定
