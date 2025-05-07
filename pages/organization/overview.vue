@@ -62,7 +62,7 @@
                 </table>
             </div>
             <h2 class="mB20">組織図</h2>
-            <NuxtImg src="/img/ピタマイ・テクノロジー意思決定.drawio.png" alt="ピタマイ・テクノロジー組織図" />
+            <NuxtImg src="/img/soshikizu.png" alt="ピタマイ・テクノロジー組織図" />
         </div>
     </div>
 </template>
