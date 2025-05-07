@@ -1,8 +1,11 @@
 <script setup>
 useHead({
-    link: [
-        { rel: "icon", href: "/favicon.png" },
-    ],
+  link: [
+    { rel: "icon", href: "/favicon.png" },
+  ],
+  htmlAttrs: {
+    lang: 'ja'
+  },
 })
 </script>
 
@@ -10,7 +13,7 @@ useHead({
   <div>
     <NuxtLayout>
       <NuxtRouteAnnouncer />
-        <NuxtPage />
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
@@ -20,9 +23,9 @@ useHead({
 .page-leave-active {
   transition: all 0.1s;
 }
+
 .page-enter-from,
 .page-leave-to {
   filter: blur(1rem);
 }
-
 </style>

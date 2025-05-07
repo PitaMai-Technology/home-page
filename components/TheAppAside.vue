@@ -180,6 +180,7 @@ const toggleThreadMenu = () => {
     margin-bottom: 0.3rem;
     border-radius: 0 24px 24px 0;
     margin-right: 8px;
+    font-size: 15px;
     cursor: pointer;
 
     a {

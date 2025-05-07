@@ -3,7 +3,7 @@
     <div class="wMax1250">
         <div class="section">
             <h1 class="mB40">組織概要</h1>
-            <div class="orgCard">
+            <div class="orgCard mB40">
                 <table class="orgTable">
                     <tbody>
                         <tr>
@@ -61,6 +61,8 @@
                     </tbody>
                 </table>
             </div>
+            <h2 class="mB20">組織図</h2>
+            <NuxtImg src="/img/ピタマイ・テクノロジー意思決定.drawio.png" alt="ピタマイ・テクノロジー組織図" />
         </div>
     </div>
 </template>
