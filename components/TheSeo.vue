@@ -22,9 +22,6 @@ useHead({
     { property: 'og:type', content: props.type },
     { name: 'twitter:card', content: 'summary_large_image' },
   ],
-  link: [
-      { rel: "icon", href: "@/favicon.png" },
-    ],
 })
 </script>
 
