@@ -117,7 +117,7 @@ const toggleThreadMenu = () => {
                                         <span class="navDropdownItemIcon">
                                             <font-awesome-icon icon="fa-solid fa-shield-halved" />
                                         </span>
-                                        <span>個人上取り扱い方針</span>
+                                        <span>個人情報の取り扱い方針</span>
                                     </NuxtLink>
                                 </div>
                             </div>
