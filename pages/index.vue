@@ -2,6 +2,7 @@
 // ニュースデータの定義（IDと日付のみ）
 const newsItems = [
     { id: 1, date: '2025年5月6日' },
+    { id: 2, date: '2025年5月13日' },
 ]
 </script>
 
@@ -70,12 +71,21 @@ const newsItems = [
                     <template #title-1>
                         <h3>ピタマイ・テクノロジーのホームページ開設</h3>
                     </template>
+                    <template #title-2>
+                        <h3>電気通信事業者の届出が関東総合通信局に受理されました。</h3>
+                    </template>
 
                     <!-- コンテンツスロット -->
                     <template #content-1>
                         <p>
                             ピタマイ・テクノロジーのホームページを開設しました。<br>
                             今後は技術ブログを作るなどの展開をしていくかもしれません。
+                        </p>
+                    </template>
+                    <template #content-2>
+                        <p>
+                            電気通信事業者の届出が無事受理されました。<br>
+                            A-07-22585 (個人での届出 責任者: 小林栄太)<br>
                         </p>
                     </template>
                 </TheAccordion>

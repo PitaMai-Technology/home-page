@@ -58,6 +58,14 @@
                                 <small>副代表 直通</small>
                             </td>
                         </tr>
+                        <tr>
+                            <th>許可証</th>
+                            <td>
+                                電気通信事業者 届出<br />
+                                A-07-22585<br />
+                                <small>(個人での届出 責任者: 小林栄太)</small>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
