@@ -28,7 +28,7 @@ const toggleThreadMenu = () => {
             <nav class="mainNav">
                 <h2 class="standardFontSize mB10">
                     <font-awesome-icon class="grayColor300" icon="fa-solid fa-laptop-code" />
-                    プロダクト(製品)
+                    開発中のもの
                 </h2>
                 <div class="navList">
                     <div class="navItem">
@@ -37,6 +37,12 @@ const toggleThreadMenu = () => {
                                 <font-awesome-icon icon="fa-solid fa-comment" />
                             </span>
                             <span>現在開発中...</span>
+                        </NuxtLink>
+                        <NuxtLink to="https://css.pitahex.com/" target="_blank" class="navLink inheritLink">
+                            <span class="navIcon" style="color: var(--subColor)">
+                                <font-awesome-icon icon="fa-solid fa-comment" />
+                            </span>
+                            <span>PitaCSS(α版)</span>
                         </NuxtLink>
                     </div>
                 </div>

@@ -59,6 +59,8 @@ const toggleItem = (itemId) => {
 /* ニュースセクションのスタイル */
 .newsContainer {
     width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .newsItem {
