@@ -3,6 +3,7 @@
 const newsItems = [
     { id: 1, date: '2025年5月6日' },
     { id: 2, date: '2025年5月13日' },
+    { id: 3, date: '2025年6月23日' },
 ]
 </script>
 
@@ -11,10 +12,9 @@ const newsItems = [
     <div>
         <div class="heroSection">
             <div class="heroContent">
-                <h1 class="heroTitle">中小規模エンジニアチームにフォーカスしたツールを作る</h1>
+                <h1 class="heroTitle">中小規模エンジニアチームにフォーカスしたOSSを作る</h1>
                 <p class="heroSubtitle">
-                    ちょうど良いぐらいのテクノロジーで、<br>
-                    中小規模のエンジニアチームに、より良い開発体験を提供する。
+                    ちょうど良いぐらいのテクノロジーで、OSSや活動をする。
                 </p>
                 <div class="heroButtonContainer">
                     <NuxtLink to="/contents" class="mB20">
@@ -34,8 +34,7 @@ const newsItems = [
         <div class="section">
             <h2 class="mB20">ピタマイ・テクノロジーについて</h2>
             <p class="mB20">
-                ピタマイ・テクノロジーは、「PitaNote Project」というWebサービスの開発と保守を目的として創業された任意団体です。<br>
-                また、OSS「PitaCSS」の開発、保守も行っています。<br>
+                ピタマイ・テクノロジーは、構成員が提案するオープンソースソフトウェア（OSS）のライブラリやフレームワークの開発と保守、貢献を目的して創業されました。
                 メンバーの自律性を尊重するフラットな組織です。<br>
                 <br>
                 所在地はありますが、活動はオンラインで行っています。<br>
@@ -58,20 +57,6 @@ const newsItems = [
                 必要に応じて低水準のユーティリティClassを段階的に追加できます。ドキュメントサイトに便利な非依存なJavaScript機能が付属しています。
             </p>
         </div>
-        <div class="section">
-            <h2 class="mB20">
-                開発中のプロダクト紹介2: PitaNote Project
-            </h2>
-            <p>
-                簡単な概要: シンプルな中小規模チーム向けのプロジェクト管理特化ツール<br>
-                <br>
-                既存のプロジェクト管理ツールは多機能な反面、中小規模のチームにとっては複雑すぎることがあります。<br>
-                情報共有機能とプロジェクト管理機能が一体化しすぎている点に着目し、<br>
-                私たちは中小規模チームに特化した、シンプルで使いやすいプロジェクト管理に特化したツールが必要だと考え、<br>
-                開発を進めています。<br>
-                ※ 現在休止中です。
-            </p>
-        </div>
 
         <TheHr />
         <div class="section">
@@ -85,6 +70,9 @@ const newsItems = [
                     <template #title-2>
                         <h3>電気通信事業者の届出が関東総合通信局に受理されました。</h3>
                     </template>
+                    <template #title-3>
+                        <h3>役員総会を開き、組織の方針を転換しました。</h3>
+                    </template>
 
                     <!-- コンテンツスロット -->
                     <template #content-1>
@@ -97,6 +85,11 @@ const newsItems = [
                         <p>
                             電気通信事業者の届出が無事受理されました。<br>
                             A-07-22585 (個人での届出 責任者: 小林栄太)<br>
+                        </p>
+                    </template>
+                    <template #content-3>
+                        <p>
+                            <NuxtLink to="https://docs.google.com/document/d/1khvoRprPNWk-qRGtwCtlA-CPt7mlF-1l7d96FeDbrnM/edit?usp=sharing" target="_blank">議事録</NuxtLink>
                         </p>
                     </template>
                 </TheAccordion>
