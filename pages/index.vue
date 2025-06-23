@@ -14,7 +14,7 @@ const newsItems = [
             <div class="heroContent">
                 <h1 class="heroTitle">中小規模エンジニアチームにフォーカスしたOSSを作る</h1>
                 <p class="heroSubtitle">
-                    ちょうど良いぐらいのテクノロジーで、OSSや活動をする。
+                    ちょうど良いぐらいのテクノロジーで、チームでOSSや創作活動をする。
                 </p>
                 <div class="heroButtonContainer">
                     <NuxtLink to="/contents" class="mB20">
